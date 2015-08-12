@@ -22,6 +22,30 @@
       "revId": "7585cf935136c960d237000a7b911a6007117fd6",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c492c913_5d54db2a",
+        "filename": "NOTICE",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1074340
+      },
+      "writtenOn": "2015-08-12T16:41:27Z",
+      "side": 1,
+      "message": "this is a symlink, obviously. i mean, didn\u0027t you see over on the left that git is using mode 120000 rather than the 100644 mode that it uses for normal files? i don\u0027t know how this could be plainer.\n\n:-P\n\ni actually have no idea why gerrit doesn\u0027t make this obvious. i used a symbolic link here since i think i saw that suggested on an earlier change, but i can switch to a copy of the COPYING file if that seems cleaner.",
+      "parentUuid": "a41eb557_9ab00d75",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 7
+      },
+      "revId": "7585cf935136c960d237000a7b911a6007117fd6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
