@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a41eb557_9ab00d75",
+        "filename": "NOTICE",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1076138
+      },
+      "writtenOn": "2015-08-12T16:17:36Z",
+      "side": 1,
+      "message": "Is this right? I understand it\u0027s referring to the \u0027COPYING\u0027 file.",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 7
+      },
+      "revId": "7585cf935136c960d237000a7b911a6007117fd6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
