@@ -58,7 +58,7 @@
 #define HAVE_FSEEKO 1
 
 /* Define to 1 if you have the <gcrypt.h> header file. */
-#define HAVE_GCRYPT_H 1
+/* #undef HAVE_GCRYPT_H */
 
 /* Define to 1 if you have `gmtime_s' function (only for W32). */
 /* #undef HAVE_GMTIME_S */
@@ -109,25 +109,25 @@
 #define HAVE_NETINET_TCP_H 1
 
 /* Define to 1 if you have the <openssl/engine.h> header file. */
-/* #undef HAVE_OPENSSL_ENGINE_H */
+#define HAVE_OPENSSL_ENGINE_H 1
 
 /* Define to 1 if you have the <openssl/err.h> header file. */
-/* #undef HAVE_OPENSSL_ERR_H */
+#define HAVE_OPENSSL_ERR_H 1
 
 /* Define to 1 if you have the <openssl/evp.h> header file. */
-/* #undef HAVE_OPENSSL_EVP_H */
+#define HAVE_OPENSSL_EVP_H 1
 
 /* Define to 1 if you have the <openssl/pem.h> header file. */
-/* #undef HAVE_OPENSSL_PEM_H */
+#define HAVE_OPENSSL_PEM_H 1
 
 /* Define to 1 if you have the <openssl/rand.h> header file. */
-/* #undef HAVE_OPENSSL_RAND_H */
+#define HAVE_OPENSSL_RAND_H 1
 
 /* Define to 1 if you have the <openssl/rsa.h> header file. */
-/* #undef HAVE_OPENSSL_RSA_H */
+#define HAVE_OPENSSL_RSA_H 1
 
 /* Define to 1 if you have the <openssl/sha.h> header file. */
-/* #undef HAVE_OPENSSL_SHA_H */
+#define HAVE_OPENSSL_SHA_H 1
 
 /* Define to 1 if you have the `poll' function. */
 #define HAVE_POLL 1
@@ -208,7 +208,7 @@
 /* #undef HAVE_WS2TCPIP_H */
 
 /* disable HTTPS support */
-#define HTTPS_SUPPORT 0
+#define HTTPS_SUPPORT 1
 
 /* Defined if libcurl supports AsynchDNS */
 /* #undef LIBCURL_FEATURE_ASYNCHDNS */

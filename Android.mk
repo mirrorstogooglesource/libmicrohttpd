@@ -24,11 +24,15 @@ LOCAL_EXPORT_C_INCLUDE_DIRS := $(LOCAL_PATH)/src/include
 LOCAL_C_INCLUDES := \
     $(LOCAL_PATH)/src/include \
     $(LOCAL_PATH)/src/microhttpd \
+    external/boringssl/include \
+
+LOCAL_SHARED_LIBRARIES := libssl libcrypto
 
 LOCAL_SRC_FILES := \
     src/microhttpd/base64.c \
     src/microhttpd/basicauth.c \
     src/microhttpd/connection.c \
+    src/microhttpd/connection_https.c \
     src/microhttpd/daemon.c \
     src/microhttpd/digestauth.c \
     src/microhttpd/internal.c \
