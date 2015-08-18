@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "c471e91c_f4fc06a9",
+        "filename": "src/microhttpd/daemon.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 449,
+      "author": {
+        "id": 1079236
+      },
+      "writtenOn": "2015-08-18T20:09:40Z",
+      "side": 1,
+      "message": "You\u0027re right, there should be no special return for these. Removed.",
+      "parentUuid": "64591d73_f55a2f79",
+      "revId": "66d83162c311a163bdbe1ec9dcbcc2a3be9148a6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "04b861a5_dffc36a9",
         "filename": "src/microhttpd/daemon.c",
         "patchSetId": 2
@@ -42,6 +60,30 @@
     },
     {
       "key": {
+        "uuid": "a4fb1585_073ce545",
+        "filename": "src/microhttpd/daemon.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 490,
+      "author": {
+        "id": 1079236
+      },
+      "writtenOn": "2015-08-18T20:09:40Z",
+      "side": 1,
+      "message": "Oops -- this BIO is based on one in chromeos -- forgot to fix the comment. Done.",
+      "parentUuid": "04b861a5_dffc36a9",
+      "range": {
+        "startLine": 490,
+        "startChar": 59,
+        "endLine": 490,
+        "endChar": 75
+      },
+      "revId": "66d83162c311a163bdbe1ec9dcbcc2a3be9148a6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a4fb1585_29ee1a80",
         "filename": "src/microhttpd/daemon.c",
         "patchSetId": 2
@@ -53,6 +95,24 @@
       "writtenOn": "2015-08-18T00:59:01Z",
       "side": 1,
       "message": "Maybe better to ignore this and just support ECDHE cipher suites?",
+      "revId": "66d83162c311a163bdbe1ec9dcbcc2a3be9148a6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a4a8755c_7cd8af62",
+        "filename": "src/microhttpd/daemon.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 619,
+      "author": {
+        "id": 1079236
+      },
+      "writtenOn": "2015-08-18T20:09:40Z",
+      "side": 1,
+      "message": "I had left the cipher suite decision up to the caller but I\u0027ve now put in reasonable defaults below (PTAL). I\u0027d like to leave this here though so callers have a way to restrict DH key size if they do choose non-ECDHE cipher suites.",
+      "parentUuid": "a4fb1585_29ee1a80",
       "revId": "66d83162c311a163bdbe1ec9dcbcc2a3be9148a6",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
