@@ -1,0 +1,7 @@
+Code-Review+2: Alex Vakulenko <avakulenko@google.com>
+Verified+1: Darren Krahn <dkrahn@google.com>
+Submitted-by: Darren Krahn <dkrahn@google.com>
+Submitted-at: Wed, 19 Aug 2015 18:33:15 +0000
+Reviewed-on: https://android-review.googlesource.com/166836
+Project: platform/external/libmicrohttpd
+Branch: refs/heads/master
