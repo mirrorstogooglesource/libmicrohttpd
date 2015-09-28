@@ -706,8 +706,8 @@ MHD_TLS_init (struct MHD_Daemon *daemon)
       ret = SSL_CTX_set_cipher_list (daemon->tls_context,
                                      "ECDHE-ECDSA-AES128-GCM-SHA256:"
                                      "ECDHE-ECDSA-AES256-GCM-SHA384:"
-                                     "ECDHE-RSA-AES128-GCM-SHA256:"
-                                     "ECDHE-RSA-AES256-GCM-SHA384");
+                                     "ECDHE-RSA-AES128-SHA256:"
+                                     "ECDHE-RSA-AES256-SHA384");
       if (ret == 0)
          {
 #if HAVE_MESSAGES
