@@ -145,7 +145,7 @@ typedef intptr_t ssize_t;
 /**
  * MHD digest auth internal code for an invalid nonce.
  */
-#define MHD_INVALID_NONCE -1
+#define MHD_INVALID_NONCE (-1)
 
 /**
  * Constant used to indicate unknown size (use when
@@ -2347,7 +2347,7 @@ MHD_destroy_post_processor (struct MHD_PostProcessor *pp);
  * authentication code was wrong.
  * @ingroup authentication
  */
-#define MHD_INVALID_NONCE -1
+#define MHD_INVALID_NONCE (-1)
 
 
 /**
