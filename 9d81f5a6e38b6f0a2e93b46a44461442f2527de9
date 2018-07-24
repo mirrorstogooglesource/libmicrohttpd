@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "64d8f008_0cbb9b83",
+        "filename": "Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2018-07-24T21:38:50Z",
+      "side": 1,
+      "message": "this is not necessary (it\u0027s exported by libssl)",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 49
+      },
+      "revId": "9d81f5a6e38b6f0a2e93b46a44461442f2527de9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "05228d03_2f3463a1",
         "filename": "Android.bp",
         "patchSetId": 1
