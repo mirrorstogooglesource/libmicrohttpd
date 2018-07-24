@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "05228d03_2f3463a1",
+        "filename": "Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1066743
+      },
+      "writtenOn": "2018-07-24T21:33:55Z",
+      "side": 1,
+      "message": "nit: remove this extraneous blank line",
+      "revId": "9d81f5a6e38b6f0a2e93b46a44461442f2527de9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
