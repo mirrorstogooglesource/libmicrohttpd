@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d13e6167_b8dc7264",
+        "filename": "OWNERS",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1074340
+      },
+      "writtenOn": "2019-01-12T00:34:26Z",
+      "side": 1,
+      "message": "mind deleting my (commented-out) address from the list?",
+      "revId": "dd20bb5ee9ad325661a443550145c3d7cf2d470c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
